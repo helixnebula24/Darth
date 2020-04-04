@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev" : "nodemon src/app.js -e hbs,js"
+    "dev": "nodemon src/app.js -e hbs,js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^5.0.0-alpha.8",
     "hbs": "^4.1.0",
+    "nodemon": "^2.0.2",
     "request": "^2.88.2"
   }
 }
